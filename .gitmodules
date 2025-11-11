@@ -1,0 +1,27 @@
+[submodule "clone-nested"]
+	path = clone-nested
+	url = ext::git --namespace=myproject/libs/nested %s /workspace/git-ns-experiment/bare-remote
+[submodule "clone-ns1-ext"]
+	path = clone-ns1-ext
+	url = ext::git --namespace=ns1 %s /workspace/git-ns-experiment/bare-remote
+[submodule "clone-ns1"]
+	path = clone-ns1
+	url = /home/yoh/proj/datalad/trash/test-namespaces/git-ns-experiment/bare-remote
+[submodule "main-repo"]
+	path = main-repo
+	url = ./main-repo
+[submodule "nested-sub"]
+	path = nested-sub
+	url = ./nested-sub
+[submodule "submodule1"]
+	path = submodule1
+	url = ./submodule1
+[submodule "submodule2"]
+	path = submodule2
+	url = ./submodule2
+[submodule "test-clone-ns2"]
+	path = test-clone-ns2
+	url = /workspace/git-ns-experiment/bare-remote
+[submodule "test-main-clone"]
+	path = test-main-clone
+	url = /workspace/git-ns-experiment/bare-remote
